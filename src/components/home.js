@@ -22,7 +22,7 @@ const Home = () => {
     property.description.toLowerCase().includes(filterText.toLowerCase())
   );
       return (
-        <div className="App">
+        <div className="home-container">
       <h1>Explore Our Properties</h1>
       {/* Input field for filtering properties by name or description */}
       <input
@@ -44,10 +44,10 @@ const Home = () => {
                   onClick={() => handleImageClick(property)}
                 />
                 {/* Overlay showing brief details about the property */}
-                <div className="overlay">
-                  <div className="overlay-content">
+                <div className = "text-mangage">
+                  <div>
                     <h2>{property.name}</h2>
-                    <p><strong>Details:</strong> {property.description}</p>
+                    <p className="truncate-text" title={property.description}><strong>Details:</strong> {property.description}</p>
                   </div>
                 </div>
               </div>
