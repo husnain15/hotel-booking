@@ -2,14 +2,12 @@
 Clone the Repository:
 Open your terminal or command prompt and clone the repository using the URL provided on GitHub.
 
-bash
-Copy code
 git clone git@github.com:husnain15/hotel-booking.git
 
 Navigate to the Project Directory:
 Change into the directory of the cloned repository.
 
-cd repository-name
+cd hotel-booking
 
 Install Dependencies:
 Use npm or yarn to install the project’s dependencies. Make sure you have Node.js and npm (or yarn) installed on your machine.
